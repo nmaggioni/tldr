@@ -35,7 +35,6 @@ exceptions can always be considered through open community discussion.)
   (Maintenance work means facilitating contributions by other people,
   which in this project typically consists of reviewing and/or merging PRs.)
   Specifically: once a repository collaborator has _merged at least 10 PRs_
-  (see `https://github.com/tldr-pages/tldr/commits?committer=<username>`)
   and submitted at least _5 non-trivial reviews to PRs_
   (see `https://github.com/tldr-pages/tldr/pulls?q=reviewed-by:<username>`),
   which can overlap with the 10 they merged themselves,
@@ -46,9 +45,8 @@ exceptions can always be considered through open community discussion.)
   push commits to all of the organization's repositories,
   merge PRs, label and close issues, among other things.
 
-  > [!NOTE]
-  > All members of the tldr-pages organization
-  > must make their membership public.
+> [!NOTE]
+> All members of the tldr-pages organization **must** make their membership public.
 
 - **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization
@@ -95,7 +93,7 @@ using one of the template messages below as a base.
 
    ```
    Hi, @username! You seem to be enjoying contributing to the tldr-pages project.
-   You now have had five distinct pull requests merged (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT PRs -->)!
+   You now have had five distinct pull requests [merged](<!-- REPLACE THIS WITH THE LINKS TO THE RELEVANT PRs -->)!
    That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).
 
    As a collaborator, you will have commit access to the repository.
@@ -113,8 +111,8 @@ using one of the template messages below as a base.
    go to <https://github.com/tldr-pages/tldr/settings/collaboration>
    and add them to the repository as a collaborator with write permissions.
 
-3. Open a PR adding their name to the "Repository collaborators" section
-   in [MAINTAINERS.md](MAINTAINERS.md#repository-collaborators).
+3. Suggest them to open a PR adding their name to the "Repository collaborators" section
+   in [MAINTAINERS.md](MAINTAINERS.md#repository-collaborators) file.
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR gets merged.
 
@@ -123,13 +121,18 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing maintenance tasks (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
+   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing [maintenance tasks](<!-- REPLACE THIS WITH THE LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
+
    Thank you for that!
+
    According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md), you've now met the thresholds to be effectively considered an active maintainer of the project.
+
    To publicly acknowledge that fact, we'd like to add you to the tldr-pages organization.
 
    If you accept the invitation, we ask you to make your membership public and (in case you don't already) start hanging out in our [Matrix chat room](https://matrix.to/#/#tldr-pages:matrix.org).
+
    Additionally, consider subscribing to the notifications from the various repositories under the [tldr-pages organization](https://github.com/tldr-pages).
+
    As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project
    governance principles](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md).
 
@@ -140,8 +143,8 @@ using one of the template messages below as a base.
    go to <https://github.com/orgs/tldr-pages/people>
    and add them to the organization as a member.
 
-3. Open a PR moving their name to the "Organization members" section
-   in [MAINTAINERS.md](MAINTAINERS.md#organization-members).
+3. Suggest them to open a PR moving their name to the "Organization members" section
+   in [MAINTAINERS.md](MAINTAINERS.md#organization-members) file.
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR gets merged.
 
@@ -151,7 +154,9 @@ using one of the template messages below as a base.
 
    ```
    Hi, @username! You've been an active tldr-pages organization member for over 6 months.
+
    Thanks for sticking around this far and helping out!
+
    According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md), you're now eligible to become an owner in the organization.
 
    That means you will, from now on, be part of the team responsible for performing role changes (like this one!) in the community.
@@ -166,8 +171,8 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and change their role from "member" to "owner".
 
-3. Open a PR moving their name to the "Organization owners" section
-   in [MAINTAINERS.md](MAINTAINERS.md#organization-owners).
+3. Suggest them to open a PR moving their name to the "Organization owners" section
+   in [MAINTAINERS.md](MAINTAINERS.md#organization-owners) file.
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR gets merged.
 
@@ -181,11 +186,14 @@ using one of the template messages below as a base.
 
    In practice, not much will change on your side, since you'll remain a collaborator in the repos you have been active in.
    That means **you will keep the ability to commit, merge PRs, label and close issues, etc.**, whenever you feel so inclined.
+
    If you don't, that's all right too!
+
    Every bit of work you already did for the tldr-pages project was a voluntary gift of your time to this community, which is deeply appreciated.
    Your efforts have contributed to a project which helps hundreds of people every day — be proud of it!
 
    And of course, you're welcome back anytime as an active maintainer, if you so choose — in which case, just let us know and we'll re-add you to the organization, in accordance with the principles of our governance guidelines.
+
    In any case, we wish you the best of luck in your new endeavors!
    ```
 
